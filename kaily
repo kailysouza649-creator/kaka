@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Sistema Escolar</title>
+
+</head>
+
+</html>
+<style>
+    body {
+        back-color: lightcoral;
+
+    }
+
+    .titulo {
+
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin-top: 70px;
+        text-align: center;
+
+    }
+
+    .formulario {
+        background-color: rgb(135, 222, 218);
+        width: 600px;
+        padding: 20px;
+        border-radius: 8px;
+        border: 2px solid black;
+        margin: auto;
+    }
+</style>
+
+<body>
+
+    <div class="titulo">
+
+        <h1>EEB Dom Jaime de Barros Câmara</h1>
+
+        <p>Preencha o formulário abaixo para cadastrar um novo aluno</p>
+
+
+
+    </div>
+    <div class="formulario">
+
+        <from>
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="dataNasc">Data de Nascimento<label>
+                    <input type="date" id="dataNasc" name="dataNasc"><br><br>
+
+                    <label for="cpf">CPF</label><br>
+                    <input type="text" id="cpf"><br>
+
+                    <label for="email">Email: </label><br>
+                    <input type="text" id="email" name="email"><br><br>
+
+
+                    <buton type="submit">Cadastrar</buton>
+
+
+
+
+
+
+
+        </from>
+
+
+    </div>
+
+</body>
+
+</html>
